@@ -9,5 +9,20 @@
         StepsToday_A = 0;
     }
 
+    public void AddSteps(int steps)
+    {
+        StepsToday_A += steps;
+    }
 
+    public void ResetDay()
+    {
+        StepsToday_A = 0;
+    }
+
+    public int GetProgress()
+    {
+        return 0;
+    }
+
+    public bool IsGoalReached => false;
 }

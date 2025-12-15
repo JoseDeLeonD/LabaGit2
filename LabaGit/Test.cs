@@ -2,6 +2,7 @@
 
 public class TrackerTests
 {
+
     [Fact]
     public void Constructor_ShouldThrow_WhenDailyGoalIsNegative()
     {
