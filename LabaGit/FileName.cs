@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LabaGit
+﻿public class Tracker
 {
-    class FileName
+    public int DailyK { get; }
+    public int StepsToday_A { get; private set; }
+
+    public Tracker(int dailyGoal)
     {
+        DailyK = dailyGoal;
+        StepsToday_A = 0;
     }
+
+
 }
