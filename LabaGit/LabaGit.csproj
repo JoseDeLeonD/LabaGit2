@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="ChainingAssertion-xUnit" Version="1.7.1" />
     <PackageReference Include="McMaster.Extensions.Xunit" Version="0.1.0" />
     <PackageReference Include="xunit.assert" Version="2.9.3" />
