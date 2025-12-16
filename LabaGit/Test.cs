@@ -52,4 +52,14 @@ public class TrackerTests
 
         Assert.True(t.IsGoalReached);
     }
+
+    [Fact]
+    public void IsGoalReached_ShouldReturnFalse_WhenGoalNotMet()
+    {
+        var t = new Tracker(1000);
+
+        t.AddSteps(500);
+
+        Assert.False(t.IsGoalReached);
+    }
 }
